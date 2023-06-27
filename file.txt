@@ -1,0 +1,10 @@
+ let finalVlaue = balanceArray.map((val)=>{
+        if(val. RESOURCE_NAME ==='Main Data Balance'){
+            //console.log(val.CURRENT_BAL);
+            let value = val.CURRENT_BAL;
+
+            return {currentBalance:val.CURRENT_BAL, DESCR:val.DESCR}
+        }else{
+            return null;
+        }
+    })
